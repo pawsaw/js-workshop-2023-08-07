@@ -12,13 +12,13 @@ const persons = [
 ];
 
 
-const personsNormalized = {
-    '1': {
-        first: 'Max',
-        last: 'Mustermann',
-    },
-    '2': {
-        first: 'Mina',
-        last: 'Musterfrau',
-    }
-};
+// const personsNormalized = {
+//     '1': {
+//         first: 'Max',
+//         last: 'Mustermann',
+//     },
+//     '2': {
+//         first: 'Mina',
+//         last: 'Musterfrau',
+//     }
+// };
