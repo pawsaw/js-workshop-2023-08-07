@@ -11,6 +11,20 @@ const persons = [
     }
 ];
 
+function normalize(data, idFieldName) {
+    return data.reduce((acc, e) => {
+        const newElement = {
+            ...e
+        };
+        delete newElement[idFieldName];
+        acc[e[idFieldName]] = newElement;
+
+        return acc;
+    }, {});
+}
+
+console.log(normalize(persons, 'id'));
+console.log(persons);
 
 // const personsNormalized = {
 //     '1': {
