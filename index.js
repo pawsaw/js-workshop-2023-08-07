@@ -1,6 +1,3 @@
-import { inc, value } from './inc.js';
+import { compact } from './compact.js';
 
-console.log('before', value());
-inc();
-inc();
-console.log('after', value());
+console.log(compact([1, 2, false, '']));
