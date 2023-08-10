@@ -8,5 +8,8 @@
   },
   "author": "Pawel Sawicki",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "isomorphic-unfetch": "^4.0.2"
+  }
 }
