@@ -1,3 +1,2 @@
-import { compact } from './compact.js';
+import { job, checkNumber } from './job.js';
 
-console.log(compact([1, 2, false, '']));
